@@ -1,0 +1,19 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    background-color: aquamarine; 
+}
+
+.logo{
+    float: left;
+}
+nav{
+    float: right;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 70px;
+}
