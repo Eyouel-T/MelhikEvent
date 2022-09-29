@@ -1,19 +1,68 @@
+
 .container{
     width: 80%;
     margin: 0 auto;
+    
 }
 header{
-    background-color: aquamarine; 
+    background-color:  rgb(119, 119, 136)
 }
 
 .logo{
     float: left;
+    
+}
+.clearfix:after{
+    content: '';
+    display:table;
+    clear:both;
+}
+#nav-logo{
+    height: 50px;
+    aspect-ratio: 1;
 }
 nav{
     float: right;
+    
 }
 nav li{
     list-style: none;
     display: inline-block;
     margin-left: 70px;
+}
+nav li a:hover {
+    color: rgb(250, 56, 56) ;
+    background-color: rgb(167, 157, 157)   ;
+}
+nav li a {
+    padding: 5px;
+    text-decoration: none ;
+    text-transform: uppercase;
+}
+.jumbotron>* {
+    float: left;
+}
+.jumbotron>h1, .jumbotron>p{
+    color: white;
+}
+.jumbotron{
+    display: flex;
+    align-items: center;
+    min-height: 350px;
+    background-size: 1630px 350px;
+    background-image: url("https://csite.nicepage.com/Images/Site/free-website-templates-1600.jpg?v=4");
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.about-us{
+    max-width: 80%;
+    padding:10px 0px;
+    text-align: center;
+    margin: auto;
+
+}
+.about-us>p{
+    color: blackS;
 }
